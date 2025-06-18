@@ -1,0 +1,10 @@
+{
+    "lean.envPathExtensions": [
+        "/Users/alex/opt/lean-4.20.0/bin/lean",
+        "/Users/alex/opt/lean-4.20.0/bin"
+    ],
+    "lean4.executablePath": [
+        "/Users/alex/opt/lean-4.20.0/bin/lean",
+        "/Users/alex/opt/lean-4.20.0/bin",
+    ]
+}"
