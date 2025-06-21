@@ -1,6 +1,5 @@
 -- This module serves as the root of the `Demo1` library.
 -- Import modules here that should be built as part of the library.
-import Demo1.Basic
 
 inductive N where
   | Z: N
@@ -34,8 +33,19 @@ def Prime (n: Nat) : Prop :=
 theorem Euclid : ∀ n: Nat, ∃ p : Nat, p > n ∧ Prime p :=
  sorry
 
-theorem Nzero_add : ∀ n, Nadd Z n = n
+-- theorem Nzero_add : ∀ n, Nadd Z n = n -- already defined above
 
-theorem NSadd : ∀ m n, Nadd (S m) n = S (Nadd mn)
+theorem NSadd : ∀ m n, Nadd (S m) n = S (Nadd m n) := by
+  intros m n
+  induction n with
+  | Z =>
+      -- Nadd (S m) Z = S m, S (Nadd m Z) = S m
+      unfold Nadd
+      rfl
+  | S n' IH =>
+      -- Nadd (S m) (S n') = S (Nadd (S m) n')
+      -- S (Nadd m (S n')) = S (S (Nadd m n'))
+      unfold Nadd
+      rw [IH]
 
 theorem Nadd_comm: ∀ m n, Nadd m n = Nadd n m

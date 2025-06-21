@@ -1,4 +1,4 @@
-import Test2
+import Test2.Basic
 
 
 def main : IO Unit :=

@@ -1,0 +1,10 @@
+name = "mathlib-4-20-0"
+version = "0.1.0"
+defaultTargets = ["mathlib-4-20-0"]
+
+[[lean_lib]]
+name = "«Mathlib4.20.0»"
+
+[[lean_exe]]
+name = "mathlib-4-20-0"
+root = "Main"

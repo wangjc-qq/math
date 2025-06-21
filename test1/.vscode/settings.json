@@ -1,0 +1,9 @@
+{
+  "lean4.toolchain": "llean-4.20.0",
+  "lean4.executablePath": "/Users/alex/.elan/toolchains/lean-4.20.0/bin/lean",
+  "lean4.lakePath": "/Users/alex/.elan/toolchains/lean-4.20.0/bin/lake",
+  "lean4.serverEnv": {
+    "PATH": "/Users/alex/.elan/bin:${env:PATH}"
+  },
+  "lean4.autoInstallToolchain": false
+}
