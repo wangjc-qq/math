@@ -1,0 +1,30 @@
+# =====配置，运行 √ =========
+# 应该是整个项目的描述
+name = "bbb"
+version = "0.1.0"
+efaultTargets = ["bbb"]
+
+[package]
+name = "bbb"
+
+# Mathlib dependencies
+[dependencies]
+mathlib = { path = ".lake/packages/mathlib" }
+proofwidgets = { path = ".lake/packages/proofwidgets" }
+aesop = { path = ".lake/packages/aesop" }
+batteries = { path = ".lake/packages/batteries" }
+importGraph = { path = ".lake/packages/importGraph" }
+LeanSearchClient = { path = ".lake/packages/LeanSearchClient" }
+plausible = { path = ".lake/packages/plausible" }
+Qq = { path = ".lake/packages/Qq" }
+Cli = { path = ".lake/packages/Cli" }
+
+# Lean library configuration
+[[lean_lib]]
+name = "Bbb"
+
+# Lean executable configuration
+[[lean_exe]]
+name = "bbb"
+root = "Main"
+default_target = true

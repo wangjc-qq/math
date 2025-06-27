@@ -1,0 +1,21 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/Cli/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/batteries/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/Qq/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/aesop/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/plausible/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/alex/Documents/repo/github/math/myDemo1/.lake/build/lib/lean /Users/alex/.elan/toolchains/leanprover--lean4---v4.21.0-rc3/bin/lean -Dpp.unicode.fun=true -DautoImplicit=false /Users/alex/Documents/repo/github/math/myDemo1/MyDemo1/Basic.lean -R /Users/alex/Documents/repo/github/math/myDemo1 -o /Users/alex/Documents/repo/github/math/myDemo1/.lake/build/lib/lean/MyDemo1/Basic.olean -i /Users/alex/Documents/repo/github/math/myDemo1/.lake/build/lib/lean/MyDemo1/Basic.ilean -c /Users/alex/Documents/repo/github/math/myDemo1/.lake/build/ir/MyDemo1/Basic.c --json",
+   "level": "trace"}],
+ "inputs":
+ [["MyDemo1.Basic:deps",
+   [["deps",
+     [["myDemo1/MyDemo1:extraDep", [["@myDemo1:extraDep", "1723"]]],
+      ["import oleans", "1723"]]],
+    ["libs",
+     [["import dynlibs", "1723"],
+      ["package external libraries", "1723"],
+      ["module dynlibs", "1723"],
+      ["module plugins", "1723"]]]]],
+  ["Lean 4.21.0, commit 6741444a63eec253a7eae7a83f1beb3de015023d",
+   "11123825329739276520"],
+  ["Module.leanArgs: #[-Dpp.unicode.fun=true, -DautoImplicit=false]",
+   "2480034161766020459"],
+  ["/Users/alex/Documents/repo/github/math/myDemo1/MyDemo1/Basic.lean",
+   "18126205365334327008"]],
+ "depHash": "17732532034521032709"}
